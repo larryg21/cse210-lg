@@ -11,6 +11,7 @@ class Program
         DisplayWelcome();
 
         string name = PromptUserName();
+        
 
         int usernumber = PromptUserNumber();
 
