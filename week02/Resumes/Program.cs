@@ -1,6 +1,5 @@
 using System;
-using System.Collections.Generic;
-using Resumes;
+
 
 class Program
 {
@@ -18,8 +17,12 @@ class Program
         job2._startYear = 2024;
         job2._endYear = "Present";
 
-        job1.DisplayJobDetails();
-        job2.DisplayJobDetails();
-        
+        Resume myResume = new Resume();
+        myResume._name = "Larry Gomez";
+
+        myResume._jobs.Add(job1);
+        myResume._jobs.Add(job2);
+
+        myResume.Display();
     }
 }
