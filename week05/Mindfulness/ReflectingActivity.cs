@@ -1,25 +1,33 @@
-public class Assignment
+public class ReflectingActivity : Activity
 {
-    private string _studentName;
-    private string _topic;
+    private List<string> _prompts;
+    private List<string> _questions;
 
-    public Assignment(string studentName, string topic)
+    public ReflectingActivity()
     {
-        _studentName = studentName;
-        _topic = topic;
-    }
-    public string GetStudentName()
-    {
-        return _studentName;
+        _prompts = new List<string>();
+        _questions = new List<string>();
     }
 
-    public string GetTopic()
+    public void Run()
     {
-        return _topic;
     }
-    public string GetSummary()
+
+    public string GetRandomPrompt()
     {
-        return _studentName + " - " + _topic;
+        return "";
+    }
+
+    public string GetRandomQuestion()
+    {
+        return "";
+    }
+
+    public void DisplayPrompt()
+    {
+    }
+
+    public void DisplayQuestions()
+    {
     }
-
 }
