@@ -1,0 +1,4 @@
+0
+SimpleGoal|mom|mom|20|False
+EternalGoal|dad|20|20
+ChecklistGoal|bro|dri|30|3|0|5
